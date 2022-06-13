@@ -3,8 +3,8 @@ import java.util.List;
 
 public class CarDealership {
 
-    final List<Car> cars = new ArrayList<>();
-    final static int BUYING_CAR_TIME = 3000;
+    private final List<Car> cars = new ArrayList<>();
+    private final static int BUYING_CAR_TIME = 3000;
 
     public synchronized void sellCar() {
         try {

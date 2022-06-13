@@ -6,7 +6,7 @@ public class Seller {
 
     private String name;
 
-    final static int CAR_PRODUCTION_TIME = 2000;
+    private final static int CAR_PRODUCTION_TIME = 2000;
 
     public Seller(String name) {
         this.name = name;
